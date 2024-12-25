@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Profile from '../assets/profile.png';
 import myCV from "../assets/Charan Resume.pdf"
 import { saveAs } from "file-saver"
+import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
 
@@ -19,8 +20,20 @@ const Hero = () => {
       <div className='max-w-7xl mt-24 mx-12 lg:mx-auto items-center flex flex-col lg:flex-row gap-16 lg:gap-40 justify-between'>
         <div className='md:space-y-6 px-4 text-center lg:text-justify flex lg:block flex-col justify-center items-center'>
           <h1 className='md:text-6xl text-4xl font-bold mb-4'>Hi👋, I'm <p className='text-blue-400'>Charanpreet Singh</p></h1>
-          <p className='md:text-2xl text-lg mb-3'>Full-Stack Developer | MERN Stack Enthusiast</p>
-          <p className='lg:w-[600px] w-9/12 mx-5 md:mx-0 mb-4 md:mb-0 text-sm text-gray-300'>
+          <p className='md:text-3xl font-medium text-xl mb-3'>
+            <Typewriter
+              words={[
+                "Full-Stack Developer",
+                "Programmer",
+                "MERN Stack Developer"
+              ]}
+              typeSpeed={80}
+              deleteSpeed={50}
+              loop={true}
+              cursor={true}
+            />
+          </p>
+          <p className='lg:w-[600px] w-9/12 mx-5 md:mx-0 mb-4 md:mb-0 text-gray-300'>
             A passionate MERN Stack Developer focused on mastering web technologies to build efficient, scalable
             applications, with a strong drive to contribute to innovative development teams and continuously enhance my
             skills to solve real-world challenges.
