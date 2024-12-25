@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import Profile from '../assets/profile.jpg';
+import Profile from '../assets/profile.png';
 import myCV from "../assets/Charan Resume.pdf"
 import { saveAs } from "file-saver"
 
@@ -37,7 +37,7 @@ const Hero = () => {
           <img
             src={Profile}
             alt="Profile"
-            className='rounded-full border border-blue-600 w-[200px] h-[220px] lg:w-[340px] lg:h-[360px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'
+            className='rounded-full border border-blue-600 w-[200px] h-[200px] md:w-[240px] md:h-[240px] xl:w-[300px] xl:h-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'
           />
         </div>
       </div>
