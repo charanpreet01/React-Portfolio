@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Profile from '../assets/profile.png';
-import myCV from "../assets/Charan Resume.pdf"
+import myCV from "../assets/Charanpreet_Resume.pdf"
 import { saveAs } from "file-saver"
 import { Typewriter } from 'react-simple-typewriter';
 
